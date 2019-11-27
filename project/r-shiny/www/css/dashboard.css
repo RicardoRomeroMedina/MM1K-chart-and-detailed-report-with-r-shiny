@@ -1,0 +1,66 @@
+/* Styles for the body of the page. */
+body {
+    font-family: 'Roboto' !important;
+    background-color: #ded0ba;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png") !important;
+}
+
+/* I removed the margin and padding. */
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Style for p tag. */
+p {
+    font-size: 16px;
+    visibility: hidden;
+}
+
+/* Style for p > span tag. */
+p>span {
+    font-weight: bold;
+}
+
+/* Style for the .gray-text class, nav a tag and .dropdown-content li > span tag. */
+.gray-text, nav a, .dropdown-content li>span {
+    color: gray !important;
+    text-decoration: none !important;
+}
+/* Styles for navbar elements. */
+.brand-logo {
+    margin-left: 10px !important;
+    font-size: 18px !important;
+    color: gray !important;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+}
+.brand-text-logo {
+    font-size: 12px !important;
+    color: #808080 !important;
+}
+.img-logo {
+    margin-bottom: 5px !important;
+}
+
+/* Style for the card. */
+.card-background {
+    background: rgba(250, 246, 245, 1) !important;
+}
+
+/* Properties of the margin. */
+.mb-1 {
+    margin-bottom: 15px !important;
+}
+.mb-2 {
+    margin-bottom: 25px !important;
+}
+.mr-1 {
+    margin-right: 10px !important;
+}
+.mt-05 {
+    margin-top: 5px !important;
+}
+.mt-40 {
+    margin-top: 40px !important;
+}
